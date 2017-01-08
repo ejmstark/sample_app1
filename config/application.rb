@@ -22,6 +22,9 @@ module SampleApp1
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+<<<<<<< HEAD
     config.assets.enabled = true
+=======
+>>>>>>> 958be41fbfac74ae20d882a4e93dbb96c9ee732e
   end
 end
